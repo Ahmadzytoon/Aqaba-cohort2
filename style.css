@@ -1,0 +1,104 @@
+.tab{
+    display: none;}
+.header{ 
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: grey;
+    width: 100%;
+    padding: 0px;
+height:12rem;
+    }
+.bar{
+    margin: 0 0 0 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+    background-color: #b7b7b7;
+    justify-content: space-around;
+    
+    }
+    li{
+        list-style: none;
+    cursor: pointer;
+}
+li:hover{
+    color: #973e02;
+    font-size: 2.2rem;
+}
+li:active{
+    color: green;
+}
+
+.container{ 
+    border: 3px solid grey;
+    border-radius: 40px;
+    min-height: 60vh;
+    margin: 5px;
+    padding: 1rem;;
+}
+#Avatar{
+    border-radius: 100px;
+    border: 2px solid black;}
+
+
+    table{
+        font-size: 2rem;
+    color: black;
+    border: 3px  grey solid;
+    margin: 2rem;
+    border-radius: 32px;;
+    padding-right: 16px;
+    padding-left: 10px;
+    width: 300px ;
+    
+}
+
+th{
+  text-align: center;
+  font-weight: bold;
+  ;
+}
+
+tr{
+  border-collapse: collapse;
+  height: 100px;
+  background-color: #FFFFFF;
+}
+
+
+td {
+  padding-left:50px;
+  padding-right: 50px;
+  padding-bottom: 5px;
+  text-align: center;
+  border-top: solid 1px black;
+  border-bottom: solid 2px black;
+}
+select{
+    width: 15rem;
+    border-radius: 20px;
+    outline: none;
+    font-size: 2rem;
+}
+
+.mid{
+
+    display: flex;
+    justify-content: center;
+    
+
+
+}
+
+.tasks{
+    /* display: none; */
+    border: 18px solid grey;
+    
+    border-radius: 22px;
+    width: 100%;
+    height: 80vh;
+}

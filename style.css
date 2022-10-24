@@ -38,7 +38,7 @@ li:active{
     border-radius: 40px;
     min-height: 60vh;
     margin: 5px;
-    padding: 1rem;;
+    padding: 1rem;
 }
 #Avatar{
     border-radius: 100px;
@@ -48,12 +48,13 @@ li:active{
     table{
         font-size: 2rem;
     color: black;
-    border: 3px  grey solid;
+    border: 18px  grey solid;
     margin: 2rem;
     border-radius: 32px;;
     padding-right: 16px;
     padding-left: 10px;
-    width: 300px ;
+    width: 275px ;
+    
     
 }
 
@@ -71,9 +72,9 @@ tr{
 
 
 td {
-  padding-left:50px;
+  padding-left:30px;
   padding-right: 50px;
-  padding-bottom: 5px;
+  padding-bottom: 2px;
   text-align: center;
   border-top: solid 1px black;
   border-bottom: solid 2px black;
@@ -89,6 +90,8 @@ select{
 
     display: flex;
     justify-content: center;
+     display: flex;
+        justify-content: center;
     
 
 
@@ -100,5 +103,5 @@ select{
     
     border-radius: 22px;
     width: 100%;
-    height: 80vh;
+    height: 90vh;
 }
